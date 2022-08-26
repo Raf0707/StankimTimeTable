@@ -22,18 +22,47 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/bottom_navig_menu" />
 
+    <FrameLayout
+        android:id="@+id/kontainerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp">
 
-        <FrameLayout
-            android:id="@+id/kontainerFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="80dp">
 
-            <androidx.viewpager.widget.ViewPager
-                android:id="@+id/mainViewpager"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
-        </FrameLayout>
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/time_table"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:text="К сожалению, на данный момент расписание отсутствует, но оно скоро появится у старосты"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        tools:layout_editor_absoluteX="16dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/hello_students"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:text="Привет! \n Здесь ты найдешь расписание для факультетов \n 09.03.03 и 09.03.04 \n (все подгруппы)"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,6 +15,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import com.example.stankimtimetable.BuildConfig;
 import com.example.stankimtimetable.R;
 import com.example.stankimtimetable.databinding.FragmentAppAboutBinding;
 import com.example.stankimtimetable.util.CustomTabUtil;
@@ -49,9 +50,9 @@ public class AppAboutFragment extends Fragment {
         binding.appVersionBtn.setText(new StringBuilder()
                 .append(getString(R.string.version))
                 .append(getString(R.string.str_dv))
-                //.append(BuildConfig.VERSION_NAME)
+                .append(BuildConfig.VERSION_NAME)
                 .append(getString(R.string.val_str_sk_right))
-                //.append(BuildConfig.VERSION_CODE)
+                .append(BuildConfig.VERSION_CODE)
                 .append(getString(R.string.val_str_sk_left))
                 .toString());
 
@@ -63,9 +64,9 @@ public class AppAboutFragment extends Fragment {
                                     .append(getString(R.string.Tabiin_str_Version))
                                     .append(getString(R.string.version))
                                     .append(getString(R.string.str_dv))
-                                   //.append(BuildConfig.VERSION_NAME)
+                                   .append(BuildConfig.VERSION_NAME)
                                     .append(getString(R.string.val_str_sk_right))
-                                    //.append(BuildConfig.VERSION_CODE)
+                                    .append(BuildConfig.VERSION_CODE)
                                     .append(getString(R.string.val_str_sk_left))
                                     .toString()));
             return true;
@@ -134,9 +135,9 @@ public class AppAboutFragment extends Fragment {
                                     .append(getString(R.string.semicolon))
                                     .append(getString(R.string.version))
                                     .append(getString(R.string.str_dv))
-                                    //.append(BuildConfig.VERSION_NAME)
+                                    .append(BuildConfig.VERSION_NAME)
                                     .append(getString(R.string.val_str_sk_right))
-                                    //.append(BuildConfig.VERSION_CODE)
+                                    .append(BuildConfig.VERSION_CODE)
                                     .append(getString(R.string.val_str_sk_left))
                                     .toString());
 

@@ -3,6 +3,7 @@ package com.example.stankimtimetable;
 import static com.example.stankimtimetable.util.UtilFragment.changeFragment;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -33,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
                             R.id.kontainerFragment,
                             savedInstanceState);
 
+                    binding.helloStudents.setVisibility(View.GONE);
+                    binding.timeTable.setVisibility(View.GONE);
+
                     break;
 
                 case R.id.software_engineering:
@@ -41,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                             R.id.kontainerFragment,
                             savedInstanceState);
 
+                    binding.helloStudents.setVisibility(View.GONE);
+                    binding.timeTable.setVisibility(View.GONE);
+
                     break;
 
                 case R.id.about_app:
@@ -48,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
                             new AppAboutFragment(),
                             R.id.kontainerFragment,
                             savedInstanceState);
+
+                    binding.helloStudents.setVisibility(View.GONE);
+                    binding.timeTable.setVisibility(View.GONE);
 
                     break;
 
