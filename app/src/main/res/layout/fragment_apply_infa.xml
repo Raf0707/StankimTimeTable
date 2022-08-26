@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gestureCounterSettingsFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.aply_infa.ApplyInfaFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Расписание 09.03.03 (Прикладная информатика)"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/idb_22_10"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="339dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:text="ИДБ - 22 - 10"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/idb_22_13"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="339dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:text="ИДБ - 22 - 13"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/idb_22_12"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="339dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:text="ИДБ - 22 - 12"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/idb_22_11"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="339dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:text="ИДБ - 22 - 11"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
