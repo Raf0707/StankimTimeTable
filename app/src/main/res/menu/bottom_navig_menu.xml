@@ -15,7 +15,7 @@
 
         <item
             android:id="@+id/about_app"
-            android:icon="@drawable/ic_baseline_info_24"
+            android:icon="@drawable/info_outline_ic_icon"
             android:title="about_app" />
     </group>
 

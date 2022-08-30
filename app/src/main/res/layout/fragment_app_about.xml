@@ -34,7 +34,7 @@
                             android:layout_width="160dp"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:src="@drawable/tabiin_about" />
+                            android:src="@drawable/stankin_vector" />
 
                         <LinearLayout
                             android:layout_width="240dp"
@@ -47,7 +47,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:gravity="center"
-                                android:text="Tabiin"
+                                android:text="@string/app_name"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
 
@@ -171,17 +171,17 @@
                             app:iconSize="24dp"
                             android:textAlignment="textStart"
                             style="@style/Widget.Material3.Button.TextButton" />
+
+                        <FrameLayout
+                            android:id="@+id/kontainerFragmentApp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="80dp">
+                        </FrameLayout>
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
 
-        <FrameLayout
-            android:id="@+id/kontainerFragmentApp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="80dp">
-        </FrameLayout>
 
-
-    </FrameLayout>
+</FrameLayout>
