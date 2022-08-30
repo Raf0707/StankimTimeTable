@@ -38,4 +38,6 @@
     <string name="danila_git_coyplink">link to Danila Vorobyov\'s GitHub profile copied</string>
     <string name="my_email_copylink">Rafail Kikmatulin\'s email copied</string>
     <string name="vk_tabiin_coyplink">VK-Group\'s Tabiin link copied</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

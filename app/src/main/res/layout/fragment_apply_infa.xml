@@ -52,19 +52,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Расписание 09.03.03 (Прикладная информатика)"
+                            android:text="09.03.03 \n (Прикладная информатика)"
                             android:gravity="center"
                             android:textColor="@color/purple_300"
                             android:textSize="24sp"
                             android:textStyle="bold"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="Timetable 09.03.03 (Applied Informatics)"
-                            android:gravity="center"
-                            android:textColor="@color/purple_300"
-                            android:textSize="24sp"/>
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -99,17 +91,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="ИДБ - 22 - 10"
+                            android:text="Расписание ИДБ - 22 - 10"
                             android:textColor="@color/black"
                             android:textSize="24sp"
                             android:textStyle="bold"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="IDB - 22 - 10"
-                            android:textColor="@color/black"
-                            android:textSize="24sp"/>
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -144,17 +129,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="ИБД - 22 - 11"
+                            android:text="Расписание ИБД - 22 - 11"
                             android:textColor="@color/black"
                             android:textSize="24sp"
                             android:textStyle="bold"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="IDB - 22 - 11"
-                            android:textColor="@color/black"
-                            android:textSize="24sp"/>
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -190,17 +168,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="ИДБ - 22 - 12"
+                            android:text="Расписание ИДБ - 22 - 12"
                             android:textColor="@color/black"
                             android:textSize="24sp"
                             android:textStyle="bold"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="IDB - 22 - 12"
-                            android:textColor="@color/black"
-                            android:textSize="24sp"/>
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -235,17 +206,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="ИДБ - 22 - 13"
+                            android:text="Расписание ИДБ - 22 - 13"
                             android:textColor="@color/black"
                             android:textSize="24sp"
                             android:textStyle="bold"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="IDB - 22 - 13"
-                            android:textColor="@color/black"
-                            android:textSize="24sp"/>
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>

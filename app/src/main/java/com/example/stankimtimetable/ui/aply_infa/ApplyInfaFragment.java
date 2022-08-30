@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.stankimtimetable.R;
 import com.example.stankimtimetable.databinding.FragmentApplyInfaBinding;
+import com.example.stankimtimetable.ui.aply_infa.about_dir.MainAIFragment;
 import com.example.stankimtimetable.ui.aply_infa.idb.Idb2210Fragment;
 import com.example.stankimtimetable.ui.aply_infa.idb.Idb2211Fragment;
 import com.example.stankimtimetable.ui.aply_infa.idb.Idb2212Fragment;
@@ -25,6 +26,13 @@ public class ApplyInfaFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding = FragmentApplyInfaBinding.inflate(inflater, container, false);
+
+        binding.applyInfaFirstBanner.setOnClickListener(view -> {
+            changeFragment(requireActivity(),
+                    new MainAIFragment(),
+                    R.id.kontainerFragment,
+                    savedInstanceState);
+        });
 
         binding.idb2210.setOnClickListener(view -> {
             changeFragment(requireActivity(),

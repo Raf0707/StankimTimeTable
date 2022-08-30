@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.stankimtimetable.R;
 import com.example.stankimtimetable.databinding.FragmentSoftwareEngBinding;
+import com.example.stankimtimetable.ui.software_eng.about_dir.MainSEFragment;
 import com.example.stankimtimetable.ui.software_eng.idb.Idb2214Fragment;
 import com.example.stankimtimetable.ui.software_eng.idb.Idb2215Fragment;
 import com.example.stankimtimetable.ui.software_eng.idb.Idb2216Fragment;
@@ -23,6 +24,13 @@ public class SoftwareEngFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding = FragmentSoftwareEngBinding.inflate(inflater, container, false);
+
+        binding.softEngFirstBanner.setOnClickListener(view -> {
+            changeFragment(requireActivity(),
+                    new MainSEFragment(),
+                    R.id.kontainerFragment,
+                    savedInstanceState);
+        });
 
         binding.idb2214.setOnClickListener(view -> {
             changeFragment(requireActivity(),
