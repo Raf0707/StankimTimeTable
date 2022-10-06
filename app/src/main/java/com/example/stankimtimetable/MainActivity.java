@@ -33,10 +33,6 @@ public class MainActivity extends AppCompatActivity {
                             new ApplyInfaFragment(),
                             R.id.kontainerFragment,
                             savedInstanceState);
-
-                    binding.helloStudents.setVisibility(View.GONE);
-                    binding.timeTable.setVisibility(View.GONE);
-
                     break;
 
                 case R.id.software_engineering:
@@ -44,10 +40,6 @@ public class MainActivity extends AppCompatActivity {
                             new SoftwareEngFragment(),
                             R.id.kontainerFragment,
                             savedInstanceState);
-
-                    binding.helloStudents.setVisibility(View.GONE);
-                    binding.timeTable.setVisibility(View.GONE);
-
                     break;
 
                 case R.id.about_app:
@@ -55,10 +47,6 @@ public class MainActivity extends AppCompatActivity {
                             new AppAboutFragment(),
                             R.id.kontainerFragment,
                             savedInstanceState);
-
-                    binding.helloStudents.setVisibility(View.GONE);
-                    binding.timeTable.setVisibility(View.GONE);
-
                     break;
 
             }

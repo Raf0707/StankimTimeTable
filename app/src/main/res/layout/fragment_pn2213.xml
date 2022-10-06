@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.aply_infa.idb.Idb2213Fragment">
+    tools:context=".ui.timetable.idb2213.Pn2213">
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScrollZickr"
@@ -41,14 +41,35 @@
                         android:padding="16dp">
 
                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:layout_marginTop="8dp"
+                            android:text="1"
+                            android:textColor="@color/purple_300"
+                            android:textSize="30sp"/>
+
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_marginTop="8dp"
-                            android:text="Понедельник"
+                            android:text="Начертательная геометрия. Запорожану К.Ю. семинар. ИГ-4"
                             android:textColor="@color/purple_300"
                             android:textSize="24sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:text="08:30 - 10:10"
+                            android:textColor="@color/purple_300"
+                            android:textSize="24sp"/>
+
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -73,14 +94,35 @@
                         android:padding="16dp">
 
                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:layout_marginTop="8dp"
+                            android:text="2"
+                            android:textColor="@color/purple_300"
+                            android:textSize="30sp"/>
+
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_marginTop="8dp"
-                            android:text="Вторник"
+                            android:text="Информатика. Чеканин В.А. лекции. 0206"
                             android:textColor="@color/purple_300"
                             android:textSize="24sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:text="10:20 - 12:00"
+                            android:textColor="@color/purple_300"
+                            android:textSize="24sp"/>
+
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -105,14 +147,35 @@
                         android:padding="16dp">
 
                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:layout_marginTop="8dp"
+                            android:text="3"
+                            android:textColor="@color/purple_300"
+                            android:textSize="30sp"/>
+
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_marginTop="8dp"
-                            android:text="Среда"
+                            android:text="Линейная алгебра и аналитическая геометрия. Яновская Е.А. лекции. 0206"
                             android:textColor="@color/purple_300"
                             android:textSize="24sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:text="12:20 - 14:00"
+                            android:textColor="@color/purple_300"
+                            android:textSize="24sp"/>
+
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -137,36 +200,14 @@
                         android:padding="16dp">
 
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:layout_gravity="center"
-                            android:gravity="center"
+                            android:layout_gravity="left"
+                            android:gravity="left"
                             android:layout_marginTop="8dp"
-                            android:text="Четверг"
+                            android:text="4"
                             android:textColor="@color/purple_300"
-                            android:textSize="24sp"/>
-                    </LinearLayout>
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/pt2213"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:cardCornerRadius="24dp"
-                app:strokeColor="@color/purple_300"
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="16dp">
+                            android:textSize="30sp"/>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -174,31 +215,9 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_marginTop="8dp"
-                            android:text="Пятница"
+                            android:text="Безопасность жизнедеятельности. Бутримова Е.В. семинар. 311"
                             android:textColor="@color/purple_300"
                             android:textSize="24sp"/>
-                    </LinearLayout>
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/sb2213"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:cardCornerRadius="24dp"
-                app:strokeColor="@color/purple_300"
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="16dp">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -206,14 +225,18 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:layout_marginTop="8dp"
-                            android:text="Суббота"
+                            android:text="14:10 - 15:50"
                             android:textColor="@color/purple_300"
                             android:textSize="24sp"/>
+
+
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
